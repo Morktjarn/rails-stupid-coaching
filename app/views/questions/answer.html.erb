@@ -1,0 +1,10 @@
+<h2 class ="p-2">Stupid coaching</h2>
+  <div class="alert alert-light" role="alert"><%= @question %>
+    <p>- You</p>
+  </div>
+  <div class="alert alert-warning" role="alert"><%= @answer %>
+    <p>- Your coach</p>
+  </div>
+  <div>
+    <%= link_to "Ask a new question", ask_path(@ask) %>
+  </div>
